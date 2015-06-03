@@ -1,7 +1,8 @@
-var PropertyModifier = require('@dmail/property').modifier;
-var definePropertyOf = require('./definePropertyOf');
+var PropertyModifier = include('@dmail/property').modifier;
+var definePropertyOf = include('./definePropertyOf');
 
 var define = PropertyModifier.create(definePropertyOf);
 
-module.exports = define;
 Object.define = define;
+
+return define;
