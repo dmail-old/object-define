@@ -1,4 +1,4 @@
-var PropertyModifier = include('@dmail/property').modifier;
+var PropertyModifier = include('dmail/property').modifier;
 var definePropertyOf = include('./definePropertyOf');
 
 var define = PropertyModifier.create(definePropertyOf);
